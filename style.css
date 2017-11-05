@@ -1,0 +1,30 @@
+    #bgimage {
+            width: 100vw;
+            height: 45vw;
+            right: 0;
+        }
+        
+        .social{
+           /* background-color: rgba(189, 195, 199, 1);*/
+            text-align: center;
+            color: black;
+            font-size: 1.5em;
+        }
+        #media {
+            font-size: 2.5em;
+        }
+        /*.abt {
+            background-color: #27ae60;
+            font-size: 1.5em;
+            position: absolute;
+            display: block;
+            
+            
+        }
+        .animated {
+             animation-duration: 1s;
+             animation-fill-mode: both;
+        }
+        #home {
+            color: rgba(189, 195, 199, 1);
+        }*/

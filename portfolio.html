@@ -5,55 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--<link href="https://bootswatch.com/4/cyborg/bootstrap.min.css">-->
+    <link href="style.css">
     <script src="https://use.fontawesome.com/c5eb075aa9.js"></script>
     <title>LG Portfolio</title>
-    <style>
-        #bgimage {
-            position: absolute;
-            z-index: -1;
-            margin-left: 0;
-            width: 100vw;
-            height: 400px;
-            padding: 0;
-            top:0;
-        }
-        nav{
-            position: relative;
-            top: 30px;
-        }
-        .social{
-            background-color: rgba(189, 195, 199,.4);
-            width: 100vw;
-            text-align: center;
-            z-index: -1;
-            color: black;
-            font-size: 1.5em;
-        }
-        #media {
-            font-size: 2.5em;
-        }
-        .abt {
-            background-color: #27ae60;
-            font-size: 1.5em;
-            
-        }
-        .animated {
-             animation-duration: 1s;
-             animation-fill-mode: both;
-        }
-
-    </style>
 </head>
 <body>
-    <div class="contianer-fluid" id="home">
-    <img src="https://cdn.pixabay.com/photo/2015/05/15/14/46/laptop-768694_960_720.jpg" alt="Open laptop on table" id="bgimage"/>
-        <br>
-        <br>
-        <h1 class="animated">Lauren George</h1>
-            <h2>Web Developer in Training</h2>
-    </div>
-   <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
        <div class="container-fluid">
            <div class="navbar-header">
                <a class="navbar-brand" href="#">LG's Portfolio</a>
@@ -66,23 +24,74 @@
            </ul>
         </div>
     </nav>
-    <!--<img src="https://c2.staticflickr.com/4/3899/14380538048_aecc015cea_b.jpg"/>-->
-   <div class="container-fluid abt" id="about">
+    <div class="contianer-fluid jumbotron" id="home">
+    <h1 class="animated display-3">Lauren George</h1>
+            <h2>Web Developer in Training</h2>
+            <img src="https://cdn.pixabay.com/photo/2015/05/15/14/46/laptop-768694_960_720.jpg" alt="Open laptop on table" id="bgimage"/>    
+    </div>
+  
+    <div class="container-fluid abt card text-white bg-success" id="about">
        <h2>About Lauren</h2>
-       <p>Lauren is an adult educator extrodinare excited to take on a new creative challenge in full-stack web development.</p>
+       <p>Lauren is an educator, artist, adventurer, and aspiring web developer excited to take on a new creative challenge.</p>
+       <img src="Profile picture 2017.jpg" class="img-circle" alt="Photo of Lauren"/>
    </div>
-   <div class="container-fluid pro" id="projects">
+   <div class="container-fluid pro card text-white bg-info" id="projects">
+      <h2>Lauren's Projects</h2>
+      <div class="row">
+          <div class="col-md-4">
+      <div class="card">
+          <h3 class="card-header">Tribute to Don Gregory</h3>
+            <a href="https://preview.c9users.io/lrgeorge27/firstworkspace/tribute_page/index.html" target="_blank"><img style="height: 200px; width: 75%; display: block;" src="HTML CSS class photo.jpg" width="300px" height="200px"/></a>
+      </div> 
+      </div>
+      <div class="col-md-4">
+      <div class="card">
+          <h3 class="card-header">Lauren George Photography</h3>
+            <a href="https://thimbleprojects.org/lrgeorge/313516/" target="_blank"><img style="height: 200px; width: 75%; display: block;" src="https://thimbleprojects.org/lrgeorge/313516/Jamestown%20Ferry%20066.JPG" width="300px" height="200px"/></a>
+      </div> 
+      </div>
+      <div class="col-md-4">
+       <div class="card">
+          <h3 class="card-header">Future Website</h3>
+            <a href="https://placeholder.com" target="_blank"><img style="height: 200px; width: 75%; display: block;" src="http://via.placeholder.com/200x150/000000/?text=Coming+Soon!"></a>
+      </div>
+      </div>
+      </div>
+      <div class="row">
+          <div class="col-md-4">
+      <div class="card">
+          <h3 class="card-header">Future Website</h3>
+            <a href="https://placeholder.com" target="_blank"><img style="height: 200px; width: 75%; display: block;" src="http://via.placeholder.com/200x150/000000/?text=Coming+Soon!"></a>
+      </div> 
+      </div>
+      <div class="col-md-4">
+      <div class="card">
+          <h3 class="card-header">Future Website</h3>
+            <a href="https://placeholder.com" target="_blank"><img style="height: 200px; width: 75%; display: block;" src="http://via.placeholder.com/200x150/000000/?text=Coming+Soon!"></a>
+      </div> 
+      </div>
+      <div class="col-md-4">
+      <div class="card">
+          <h3 class="card-header">Future Website</h3>
+            <a href="https://placeholder.com" target="_blank"><img style="height: 200px; width: 75%; display: block;" src="http://via.placeholder.com/200x150/000000/?text=Coming+Soon!"></a>
+      </div> 
+      </div>
    </div>
-   <div class="social" id="contact">
+   <div class="container-fluid card bg-danger text-center" id="contact">
+       <div class="card-body">
        <h2>Contact Lauren</h2>
-           <p><i class="fa fa-envelope" aria-hidden="true"></i>Email: lrgeorge27@gmail.com<br> or find me on social media:<br>Twitter: @lrgeorge27<br>Instagram: @clumsygirllg</p>
+           <p class="social"><i class="fa fa-envelope" aria-hidden="true"></i>Email: lrgeorge27@gmail.com<br> or find me on social media:<br>Twitter: @lrgeorge27<br>Instagram: @clumsygirllg</p>
             <div id="media">
                 <a href="https://twitter.com/lrgeorge27" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/lrgeorge" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <!--<a href="https://www.facebook.com/lrgeorge" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>-->
                 <a href="https://www.linkedin.com/in/lauren-george-2017/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                 <a href="https://github.com/lrgeorge27" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                 <a href="https://www.freecodecamp.org/lrgeorge27" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
             </div>
+        </div>
     </div>
+    <footer class="container text-center">
+        <h2>Thanks for visiting! Look for Lauren online.</h2>
+    </footer>
 </body>
 </html>
