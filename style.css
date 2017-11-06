@@ -1,9 +1,20 @@
-/*#bgimage {
+#bgimage {
  	width: 100vw;
  	height: 100vh;
- 	position: absolute;
- 	right: 0;
- }*/
+ 	z-index: -1;
+ }
+.heading {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 10px;
+  color: white;
+ }
+ .heading2 {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 10px;
+  color: white;
+ }
  .social {
  	/* background-color: rgba(189, 195, 199, 1);*/
  	text-align: center;
@@ -12,10 +23,10 @@
  }
 /* #media {
  	font-size: 2.5em;
- }*/
+}
  .dropdown:hover .dropdown-menu {
  	display: block;
  }
- /*.navbar-toggle:hover #myNavbar {
+ .navbar-toggle:hover #myNavbar {
             display: block;
         }*/
